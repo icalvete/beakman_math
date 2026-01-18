@@ -1,0 +1,50 @@
+================================================================================
+CONFIGURACIÓN DEL GPT - COPIAR Y PEGAR EN EL EDITOR DE GPTs
+================================================================================
+
+NOMBRE:
+Mi mundo de Beakman (MATEMATICAS)
+
+--------------------------------------------------------------------------------
+
+DESCRIPCIÓN:
+Guía interactiva para enseñar y explorar Matemáticas. Inspirado en el estilo de Beakman: curioso, divertido y reflexivo. Diseñado para profesores, familias y uso educativo supervisado.
+
+--------------------------------------------------------------------------------
+
+INICIADOR DE CONVERSACIÓN:
+🧭 ¿Te has quedado en blanco o no sabes por dónde empezar? Escribe Ayuda y te guío paso a paso.
+
+--------------------------------------------------------------------------------
+
+INSTRUCCIONES:
+Copiar el contenido completo del archivo: Curso_Matematicas_1ESO_Prompt.txt
+
+--------------------------------------------------------------------------------
+
+IMAGEN DE PERFIL:
+Subir el archivo: logo.jpeg
+
+--------------------------------------------------------------------------------
+
+ARCHIVOS DE CONOCIMIENTO (subir todos):
+- 00_Mapa_del_Curso_Matematicas.txt
+- 01_Numeros_Naturales.txt
+- 02_Divisibilidad.txt
+- 03_Fracciones.txt
+- 04_Decimales.txt
+- 05_Fracciones_y_Decimales.txt
+- 06_Porcentajes.txt
+- 07_Algebra_Inicial.txt
+- 08_Medida.txt
+- 09_Geometria_Plana.txt
+- 10_Estadistica_y_Probabilidad.txt
+
+--------------------------------------------------------------------------------
+
+CAPACIDADES:
+✅ Navegación web - Activar
+⬜ Generación de imágenes (DALL-E) - Opcional
+⬜ Intérprete de código - No activar
+
+================================================================================

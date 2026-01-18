@@ -23,6 +23,8 @@ Un tutor de matemáticas basado en ChatGPT diseñado para estudiantes de 12 año
 
 Sigue estos pasos para crear tu propia copia de este GPT. No necesitas conocimientos técnicos, solo una cuenta de ChatGPT Plus.
 
+> **Referencia rápida:** El archivo `gpt/configuracion.txt` contiene todos los textos listos para copiar y pegar en el editor de GPTs.
+
 ### Requisitos previos
 
 - **Cuenta de ChatGPT Plus** ($20/mes) - Los GPTs personalizados solo están disponibles para usuarios de pago
@@ -187,6 +189,7 @@ El GPT avisará cuando no tenga información suficiente en lugar de inventarla.
 ├── README.md                   # Este archivo (guía completa)
 ├── CLAUDE.md                   # Guía para asistentes de código
 ├── gpt/                        # Configuración del GPT
+│   ├── configuracion.txt       # ⭐ Textos para copiar/pegar en el editor
 │   ├── logo.jpeg               # Imagen de perfil del GPT
 │   └── Curso_Matematicas_1ESO_Prompt.txt    # Instrucciones principales
 ├── knowledge/                  # Archivos de Conocimiento (subir al GPT)
