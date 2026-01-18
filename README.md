@@ -85,10 +85,10 @@ Los "Iniciadores de conversación" son botones que aparecen cuando el alumno abr
 2. Haz clic en "Añadir iniciador" y escribe:
 
 ```
-🧭 ¿Te has quedado en blanco o no sabes por dónde empezar? Escribe Ayuda y te guío paso a paso.
+¿Te has quedado en blanco o no sabes por donde empezar? Escribe Ayuda y te guio paso a paso.
 ```
 
-> **Nota:** Opcionalmente puedes añadir más iniciadores como "📚 Quiero repasar un tema", "❓ No entiendo este ejercicio" o "🎯 Dame un ejercicio para practicar".
+> **Nota:** Opcionalmente puedes anadir mas iniciadores como "Quiero repasar un tema", "No entiendo este ejercicio" o "Dame un ejercicio para practicar".
 
 ### Paso 5: Conocimiento (Base de conocimiento)
 
@@ -126,11 +126,11 @@ Esta sección define qué herramientas adicionales puede usar el GPT.
 
 Configuración recomendada:
 
-| Capacidad | Activar | Razón |
+| Capacidad | Activar | Razon |
 |-----------|---------|-------|
-| **Navegación web** | ✅ Sí | Permite buscar información adicional en fuentes educativas cuando el Conocimiento no es suficiente |
-| **Generación de imágenes (DALL-E)** | ⬜ Opcional | Puede generar diagramas, pero no es esencial |
-| **Intérprete de código** | ⬜ No | No es necesario para matemáticas de este nivel |
+| **Navegacion web** | Si | Permite buscar informacion adicional en fuentes educativas cuando el Conocimiento no es suficiente |
+| **Generacion de imagenes (DALL-E)** | Opcional | Puede generar diagramas, pero no es esencial |
+| **Interprete de codigo** | No | No es necesario para matematicas de este nivel |
 
 ### Paso 7: Guardar el GPT
 
@@ -189,7 +189,7 @@ El GPT avisará cuando no tenga información suficiente en lugar de inventarla.
 ├── README.md                   # Este archivo (guía completa)
 ├── CLAUDE.md                   # Guía para asistentes de código
 ├── gpt/                        # Configuración del GPT
-│   ├── configuracion.txt       # ⭐ Textos para copiar/pegar en el editor
+│   ├── configuracion.txt       # Textos para copiar/pegar en el editor
 │   ├── logo.jpeg               # Imagen de perfil del GPT
 │   └── Curso_Matematicas_1ESO_Prompt.txt    # Instrucciones principales
 ├── knowledge/                  # Archivos de Conocimiento (subir al GPT)
@@ -331,7 +331,7 @@ Conexión con temas anteriores/posteriores.
 
 ---
 
-## ⚠️ Descargo de responsabilidad
+## Descargo de responsabilidad
 
 > **IMPORTANTE: Lee esto antes de usar el proyecto**
 >
@@ -347,7 +347,7 @@ Conexión con temas anteriores/posteriores.
 > - La imagen utilizada (Beakman) es propiedad de sus respectivos titulares y se usa aquí con fines educativos y sin ánimo de lucro.
 > - Este proyecto **no está afiliado** con OpenAI, ChatGPT, ni con los creadores originales del programa "El mundo de Beakman".
 >
-> **⚠️ Úsalo como complemento, nunca como única fuente de aprendizaje.**
+> **Usalo como complemento, nunca como unica fuente de aprendizaje.**
 
 ---
 
@@ -358,12 +358,12 @@ Este proyecto está licenciado bajo **Creative Commons Attribution-ShareAlike 4.
 [![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Esto significa que puedes:
-- ✅ **Compartir** — copiar y redistribuir el material en cualquier medio o formato
-- ✅ **Adaptar** — remezclar, transformar y construir sobre el material para cualquier propósito, incluso comercial
+- **Compartir** — copiar y redistribuir el material en cualquier medio o formato
+- **Adaptar** — remezclar, transformar y construir sobre el material para cualquier proposito, incluso comercial
 
 Con las siguientes condiciones:
-- 📋 **Atribución** — Debes dar crédito apropiado, proporcionar un enlace a la licencia e indicar si se realizaron cambios
-- 📋 **CompartirIgual** — Si remezclas, transformas o creas a partir del material, debes distribuir tu contribución bajo la misma licencia que el original
+- **Atribucion** — Debes dar credito apropiado, proporcionar un enlace a la licencia e indicar si se realizaron cambios
+- **CompartirIgual** — Si remezclas, transformas o creas a partir del material, debes distribuir tu contribucion bajo la misma licencia que el original
 
 Ver el archivo [LICENSE](LICENSE) para más detalles.
 
