@@ -331,9 +331,39 @@ Conexión con temas anteriores/posteriores.
 
 ---
 
+## Descargo de responsabilidad
+
+**Este proyecto se proporciona "tal cual", sin garantías de ningún tipo.**
+
+- Este GPT es una **herramienta de apoyo educativo**, no un sustituto de profesores, tutores o profesionales de la educación.
+- Las respuestas generadas por el GPT pueden contener **errores o imprecisiones**. A pesar de las medidas de protección implementadas, los modelos de lenguaje pueden "alucinar" (inventar información).
+- **Se recomienda supervisión adulta** durante el uso por parte de menores.
+- El autor **no se hace responsable** de:
+  - Errores en el contenido generado por el GPT
+  - Decisiones académicas tomadas basándose en las respuestas del GPT
+  - Cualquier perjuicio derivado del uso de este proyecto
+- La imagen utilizada (Beakman) es propiedad de sus respectivos titulares y se usa aquí con fines educativos y sin ánimo de lucro.
+- Este proyecto **no está afiliado** con OpenAI, ChatGPT, ni con los creadores originales del programa "El mundo de Beakman".
+
+**Úsalo como complemento, nunca como única fuente de aprendizaje.**
+
+---
+
 ## Licencia
 
-Proyecto educativo de uso personal y familiar.
+Este proyecto está licenciado bajo **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.
+
+[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Esto significa que puedes:
+- ✅ **Compartir** — copiar y redistribuir el material en cualquier medio o formato
+- ✅ **Adaptar** — remezclar, transformar y construir sobre el material para cualquier propósito, incluso comercial
+
+Con las siguientes condiciones:
+- 📋 **Atribución** — Debes dar crédito apropiado, proporcionar un enlace a la licencia e indicar si se realizaron cambios
+- 📋 **CompartirIgual** — Si remezclas, transformas o creas a partir del material, debes distribuir tu contribución bajo la misma licencia que el original
+
+Ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 
