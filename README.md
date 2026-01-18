@@ -80,16 +80,23 @@ El prompt de instrucciones define:
 Los "Conversation starters" son botones que aparecen cuando el alumno abre el chat. Le ayudan a saber cómo empezar.
 
 1. Busca la sección "Conversation starters"
-2. Haz clic en "Add starter"
-3. Escribe:
+2. Haz clic en "Add starter" para cada uno de estos 4 iniciadores:
+
 ```
 🧭 ¿Te has quedado en blanco o no sabes por dónde empezar? Escribe Ayuda y te guío paso a paso.
 ```
 
-Puedes añadir más iniciadores si quieres (hasta 4), por ejemplo:
-- `Quiero repasar fracciones`
-- `No entiendo este ejercicio`
-- `Dame un ejercicio de porcentajes`
+```
+📚 Quiero repasar un tema
+```
+
+```
+❓ No entiendo este ejercicio (pega o describe el ejercicio)
+```
+
+```
+🎯 Dame un ejercicio para practicar
+```
 
 ### Paso 5: Knowledge (Base de conocimiento)
 
