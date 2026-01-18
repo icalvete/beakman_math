@@ -331,21 +331,23 @@ Conexión con temas anteriores/posteriores.
 
 ---
 
-## Descargo de responsabilidad
+## ⚠️ Descargo de responsabilidad
 
-**Este proyecto se proporciona "tal cual", sin garantías de ningún tipo.**
-
-- Este GPT es una **herramienta de apoyo educativo**, no un sustituto de profesores, tutores o profesionales de la educación.
-- Las respuestas generadas por el GPT pueden contener **errores o imprecisiones**. A pesar de las medidas de protección implementadas, los modelos de lenguaje pueden "alucinar" (inventar información).
-- **Se recomienda supervisión adulta** durante el uso por parte de menores.
-- El autor **no se hace responsable** de:
-  - Errores en el contenido generado por el GPT
-  - Decisiones académicas tomadas basándose en las respuestas del GPT
-  - Cualquier perjuicio derivado del uso de este proyecto
-- La imagen utilizada (Beakman) es propiedad de sus respectivos titulares y se usa aquí con fines educativos y sin ánimo de lucro.
-- Este proyecto **no está afiliado** con OpenAI, ChatGPT, ni con los creadores originales del programa "El mundo de Beakman".
-
-**Úsalo como complemento, nunca como única fuente de aprendizaje.**
+> **IMPORTANTE: Lee esto antes de usar el proyecto**
+>
+> Este proyecto se proporciona **"tal cual"**, sin garantías de ningún tipo.
+>
+> - Este GPT es una **herramienta de apoyo educativo**, no un sustituto de profesores, tutores o profesionales de la educación.
+> - Las respuestas generadas por el GPT pueden contener **errores o imprecisiones**. A pesar de las medidas de protección implementadas, los modelos de lenguaje pueden "alucinar" (inventar información).
+> - **Se recomienda supervisión adulta** durante el uso por parte de menores.
+> - El autor **no se hace responsable** de:
+>   - Errores en el contenido generado por el GPT
+>   - Decisiones académicas tomadas basándose en las respuestas del GPT
+>   - Cualquier perjuicio derivado del uso de este proyecto
+> - La imagen utilizada (Beakman) es propiedad de sus respectivos titulares y se usa aquí con fines educativos y sin ánimo de lucro.
+> - Este proyecto **no está afiliado** con OpenAI, ChatGPT, ni con los creadores originales del programa "El mundo de Beakman".
+>
+> **⚠️ Úsalo como complemento, nunca como única fuente de aprendizaje.**
 
 ---
 
