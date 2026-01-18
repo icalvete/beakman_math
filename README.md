@@ -29,42 +29,42 @@ Sigue estos pasos para crear tu propia copia de este GPT. No necesitas conocimie
 - **Navegador web** - Chrome, Firefox, Safari o Edge
 - **Los archivos de este repositorio** - Descárgalos o clona el repositorio
 
-### Paso 1: Acceder al GPT Builder
+### Paso 1: Acceder al editor de GPTs
 
 1. Abre tu navegador y ve a: **https://chat.openai.com**
 2. Inicia sesión con tu cuenta de ChatGPT Plus
-3. En el menú lateral izquierdo, haz clic en **"Explore GPTs"**
-4. En la esquina superior derecha, haz clic en **"Create"**
-5. Se abrirá el editor de GPTs con dos pestañas: "Create" y "Configure"
-6. Haz clic en la pestaña **"Configure"** (la usaremos para configurar todo manualmente)
+3. En el menú lateral izquierdo, haz clic en **"Explorar GPTs"**
+4. En la esquina superior derecha, haz clic en **"Crear"**
+5. Se abrirá el editor de GPTs con dos pestañas: "Crear" y "Configurar"
+6. Haz clic en la pestaña **"Configurar"** (la usaremos para configurar todo manualmente)
 
 ### Paso 2: Información básica
 
-En la pestaña "Configure", rellena los siguientes campos:
+En la pestaña "Configurar", rellena los siguientes campos:
 
-**Name (Nombre):**
+**Nombre:**
 ```
 Mi mundo de Beakman (MATEMATICAS)
 ```
 
-**Description (Descripción):**
+**Descripción:**
 ```
 Guía interactiva para enseñar y explorar Matemáticas. Inspirado en el estilo de Beakman: curioso, divertido y reflexivo. Diseñado para profesores, familias y uso educativo supervisado.
 ```
 
-**Profile Picture (Imagen de perfil):**
+**Imagen de perfil:**
 1. Haz clic en el icono de imagen
-2. Selecciona "Upload a photo"
+2. Selecciona "Subir una foto"
 3. Busca y selecciona el archivo `gpt/logo.jpeg` de este repositorio
 
 ### Paso 3: Instrucciones (el cerebro del GPT)
 
-El campo **Instructions** es donde defines cómo se comportará el GPT. Aquí es donde copiarás el prompt principal.
+El campo **Instrucciones** es donde defines cómo se comportará el GPT. Aquí es donde copiarás el prompt principal.
 
 1. Abre el archivo `gpt/Curso_Matematicas_1ESO_Prompt.txt` con cualquier editor de texto (Bloc de notas, TextEdit, etc.)
 2. Selecciona **todo el contenido** (Ctrl+A o Cmd+A)
 3. Cópialo (Ctrl+C o Cmd+C)
-4. En el GPT Builder, haz clic en el campo "Instructions"
+4. En el editor de GPTs, haz clic en el campo "Instrucciones"
 5. Pega el contenido (Ctrl+V o Cmd+V)
 
 **¿Por qué es importante este archivo?**
@@ -75,35 +75,25 @@ El prompt de instrucciones define:
 - Cómo gestionar bloqueos del alumno
 - Qué comandos puede usar el estudiante
 
-### Paso 4: Conversation starters (Iniciadores de conversación)
+### Paso 4: Iniciadores de conversación
 
-Los "Conversation starters" son botones que aparecen cuando el alumno abre el chat. Le ayudan a saber cómo empezar.
+Los "Iniciadores de conversación" son botones que aparecen cuando el alumno abre el chat. Le ayudan a saber cómo empezar.
 
-1. Busca la sección "Conversation starters"
-2. Haz clic en "Add starter" para cada uno de estos 4 iniciadores:
+1. Busca la sección "Iniciadores de conversación"
+2. Haz clic en "Añadir iniciador" y escribe:
 
 ```
 🧭 ¿Te has quedado en blanco o no sabes por dónde empezar? Escribe Ayuda y te guío paso a paso.
 ```
 
-```
-📚 Quiero repasar un tema
-```
+> **Nota:** Opcionalmente puedes añadir más iniciadores como "📚 Quiero repasar un tema", "❓ No entiendo este ejercicio" o "🎯 Dame un ejercicio para practicar".
 
-```
-❓ No entiendo este ejercicio (pega o describe el ejercicio)
-```
+### Paso 5: Conocimiento (Base de conocimiento)
 
-```
-🎯 Dame un ejercicio para practicar
-```
+La sección **Conocimiento** permite subir archivos que el GPT usará como referencia. Esto es fundamental para que las respuestas sean precisas y coherentes con el temario.
 
-### Paso 5: Knowledge (Base de conocimiento)
-
-La sección **Knowledge** permite subir archivos que el GPT usará como referencia. Esto es fundamental para que las respuestas sean precisas y coherentes con el temario.
-
-1. Busca la sección "Knowledge"
-2. Haz clic en "Upload files"
+1. Busca la sección "Conocimiento"
+2. Haz clic en "Subir archivos"
 3. Navega a la carpeta `knowledge/` de este repositorio
 4. Selecciona **todos** los archivos `.txt`:
    - `00_Mapa_del_Curso_Matematicas.txt`
@@ -117,18 +107,18 @@ La sección **Knowledge** permite subir archivos que el GPT usará como referenc
    - `08_Medida.txt`
    - `09_Geometria_Plana.txt`
    - `10_Estadistica_y_Probabilidad.txt`
-5. Haz clic en "Open" o "Abrir"
+5. Haz clic en "Abrir"
 
 **¿Por qué subir estos archivos?**
 
-Sin Knowledge, el GPT improvisaría basándose en su conocimiento general, lo cual puede generar:
+Sin archivos de Conocimiento, el GPT improvisaría basándose en su conocimiento general, lo cual puede generar:
 - Contenido no adaptado al nivel de 1º ESO
 - Explicaciones inconsistentes entre sesiones
 - Mayor riesgo de "alucinaciones" (inventar información)
 
-Con Knowledge, el GPT consulta primero estos archivos y da respuestas coherentes con el temario definido.
+Con archivos de Conocimiento, el GPT consulta primero estos archivos y da respuestas coherentes con el temario definido.
 
-### Paso 6: Capabilities (Capacidades)
+### Paso 6: Capacidades
 
 Esta sección define qué herramientas adicionales puede usar el GPT.
 
@@ -136,19 +126,19 @@ Configuración recomendada:
 
 | Capacidad | Activar | Razón |
 |-----------|---------|-------|
-| **Web Browsing** | ✅ Sí | Permite buscar información adicional en fuentes educativas cuando el Knowledge no es suficiente |
-| **DALL-E Image Generation** | ⬜ Opcional | Puede generar diagramas, pero no es esencial |
-| **Code Interpreter** | ⬜ No | No es necesario para matemáticas de este nivel |
+| **Navegación web** | ✅ Sí | Permite buscar información adicional en fuentes educativas cuando el Conocimiento no es suficiente |
+| **Generación de imágenes (DALL-E)** | ⬜ Opcional | Puede generar diagramas, pero no es esencial |
+| **Intérprete de código** | ⬜ No | No es necesario para matemáticas de este nivel |
 
 ### Paso 7: Guardar el GPT
 
 1. Revisa que todos los campos estén completos
-2. En la esquina superior derecha, haz clic en **"Create"** (o "Update" si estás editando)
+2. En la esquina superior derecha, haz clic en **"Crear"** (o **"Actualizar"** si estás editando)
 3. Elige la visibilidad:
-   - **Only me**: Solo tú puedes usarlo
-   - **Anyone with the link**: Cualquiera con el enlace puede usarlo
-   - **Public**: Aparece en la tienda de GPTs
-4. Haz clic en "Save"
+   - **Solo yo**: Solo tú puedes usarlo
+   - **Cualquiera con el enlace**: Cualquiera con el enlace puede usarlo
+   - **Público**: Aparece en la tienda de GPTs
+4. Haz clic en "Guardar"
 
 ¡Listo! Tu GPT está creado y puedes empezar a usarlo.
 
@@ -160,10 +150,10 @@ Los modelos de lenguaje como GPT-4 pueden "alucinar", es decir, inventar informa
 
 Este GPT incluye varias capas de protección:
 
-### 1. Knowledge como fuente principal
+### 1. Conocimiento como fuente principal
 
 El prompt indica explícitamente:
-> "Usa siempre los archivos de Knowledge como fuente principal."
+> "Usa siempre los archivos de Conocimiento como fuente principal."
 
 Esto fuerza al GPT a consultar primero el contenido verificado antes de improvisar.
 
@@ -199,7 +189,7 @@ El GPT avisará cuando no tenga información suficiente en lugar de inventarla.
 ├── gpt/                        # Configuración del GPT
 │   ├── logo.jpeg               # Imagen de perfil del GPT
 │   └── Curso_Matematicas_1ESO_Prompt.txt    # Instrucciones principales
-├── knowledge/                  # Archivos de Knowledge (subir al GPT)
+├── knowledge/                  # Archivos de Conocimiento (subir al GPT)
 │   ├── 00_Mapa_del_Curso_Matematicas.txt
 │   ├── 01_Numeros_Naturales.txt
 │   ├── 02_Divisibilidad.txt
@@ -317,13 +307,13 @@ Relación con otros temas:
 Conexión con temas anteriores/posteriores.
 ```
 
-2. Sube el nuevo archivo al Knowledge del GPT en el GPT Builder
+2. Sube el nuevo archivo a la sección Conocimiento del GPT en el editor de GPTs
 
 ### Modificar el comportamiento
 
 1. Edita `gpt/Curso_Matematicas_1ESO_Prompt.txt`
 2. Consulta `docs/Curso_Matematicas_1ESO_Prompt_Comentado.txt` para entender el propósito de cada sección antes de modificar
-3. Copia el nuevo contenido en el campo Instructions del GPT Builder
+3. Copia el nuevo contenido en el campo Instrucciones del editor de GPTs
 
 ---
 
@@ -331,8 +321,8 @@ Conexión con temas anteriores/posteriores.
 
 | Limitación | Descripción |
 |------------|-------------|
-| **Actualización manual** | Los cambios en este repositorio no se sincronizan automáticamente con el GPT. Debes actualizar manualmente en el GPT Builder. |
-| **Tamaño de Knowledge** | OpenAI limita el tamaño de los archivos de Knowledge. Si añades mucho contenido, puede que necesites dividirlo. |
+| **Actualización manual** | Los cambios en este repositorio no se sincronizan automáticamente con el GPT. Debes actualizar manualmente en el editor de GPTs. |
+| **Tamaño de Conocimiento** | OpenAI limita el tamaño de los archivos de Conocimiento. Si añades mucho contenido, puede que necesites dividirlo. |
 | **Sin historial entre sesiones** | El GPT no recuerda conversaciones anteriores. Cada chat empieza de cero. |
 | **Dependencia de ChatGPT Plus** | Requiere suscripción de pago ($20/mes). |
 

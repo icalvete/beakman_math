@@ -12,17 +12,14 @@ Este repositorio contiene la base de conocimiento y el prompt del sistema para u
 
 **Descripción:** Guía interactiva para enseñar y explorar Matemáticas. Inspirado en el estilo de Beakman: curioso, divertido y reflexivo. Diseñado para profesores, familias y uso educativo supervisado.
 
-**Iniciadores de conversación:**
+**Iniciador de conversación:**
 - 🧭 ¿Te has quedado en blanco o no sabes por dónde empezar? Escribe Ayuda y te guío paso a paso.
-- 📚 Quiero repasar un tema
-- ❓ No entiendo este ejercicio (pega o describe el ejercicio)
-- 🎯 Dame un ejercicio para practicar
 
 **Imagen:** `gpt/logo.jpeg`
 
 **Instrucciones:** Contenido de `gpt/Curso_Matematicas_1ESO_Prompt.txt`
 
-**Knowledge (archivos a subir):** Todo el contenido de la carpeta `knowledge/`
+**Conocimiento (archivos a subir):** Todo el contenido de la carpeta `knowledge/`
 
 ## Estructura del Repositorio
 
