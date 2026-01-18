@@ -1,0 +1,10 @@
+TEMA 7 – ÁLGEBRA INICIAL
+
+El álgebra usa letras para representar números.
+
+Ideas clave:
+- Expresiones algebraicas.
+- Ecuaciones sencillas.
+
+Errores típicos:
+- Pensar que la letra es un objeto.

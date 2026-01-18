@@ -1,0 +1,11 @@
+TEMA 4 – DECIMALES
+
+Los decimales son otra forma de representar partes.
+
+Ideas clave:
+- Sistema decimal.
+- Posición de las cifras.
+- Recta numérica.
+
+Errores típicos:
+- Leer decimales como enteros.

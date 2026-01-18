@@ -1,0 +1,11 @@
+TEMA 10 – ESTADÍSTICA Y PROBABILIDAD
+
+La estadística organiza datos.
+La probabilidad estudia el azar.
+
+Ideas clave:
+- Tablas y gráficos.
+- Probabilidad básica.
+
+Errores típicos:
+- Interpretar mal los gráficos.

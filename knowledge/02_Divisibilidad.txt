@@ -1,0 +1,14 @@
+TEMA 2 – DIVISIBILIDAD
+
+La divisibilidad estudia cómo se reparten y agrupan cantidades.
+
+Ideas clave:
+- Múltiplos y divisores.
+- Números primos y compuestos.
+- MCD y mcm.
+
+Errores típicos:
+- Confundir múltiplo con divisor.
+
+Relación:
+Clave para fracciones.
